@@ -1,0 +1,28 @@
+{
+  "name": "Autohome.QingUI",
+  "version": "2.1.1",
+  "description": "Autohome Frontend Development Mobile Group",
+  "homepage": "http://www.autohome.com.cn",
+  "author": "yangchunxu@autohome.com.cn",
+  "banner": "/*!\n * copyright (c) 2014-2015, <%= pkg.name %> v<%= pkg.version %>\n * description: <%= pkg.description %>\n * build time: <%= new Date() %>\n */\n",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "browserify": "^11.0.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-header": "^1.7.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-ruby-sass": "^2.0.3",
+    "gulp-sequence": "^0.4.1",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "through2": "^2.0.0"
+  }
+}

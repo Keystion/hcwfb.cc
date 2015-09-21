@@ -1,0 +1,90 @@
+*{ margin: 0; padding: 0;}
+
+.clearfix:before,
+.clearfix:after { content: ""; display: table}
+.clearfix:after { clear: both}
+
+ul,ol{ list-style: none;}
+a{ text-decoration: none;}
+
+/* Font Awesome Font Size */
+.fa-2 { font-size: 2em !important;}
+.fa-3 { font-size: 4em !important;}
+.fa-4 { font-size: 7em !important;}
+.fa-5 { font-size: 12em !important;}
+.fa-6 { font-size: 20em !important;}
+.fa-1, .fa-2, .fa-3, .fa-4, .fa-5, .fa-6 { margin-right: 0.07142857em !important;}
+
+/* btn */
+.btn{
+    height: 50px;
+    line-height: 50px;
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 20px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+/* 容器大小 */
+.container{
+    width: 962px;
+    margin: 0 auto;
+}
+/*  */
+.page__wrap{}
+/* 页头 */
+.page__header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.9);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255, 0.9);
+}
+/*    logo*/
+    .page__header .site__logo{ float: left; line-height: 50px;}
+    .page__header .site__logo a{ color: #000;}
+    .page__header .site__logo h1{ font-size: 24px;}
+/*    导航菜单*/
+    .page__header .site__nav{ float: right; line-height: 50px;}
+    .page__header .site__nav .site__nav-link{ color: #777; display: inline-block; margin: 0 5px; padding: 0 5px;}
+    .page__header .site__nav a.active{ color: #03a9f4;}
+
+/* Banner */
+.section__banner {
+    min-height: 700px;
+    width: 100%;
+    background-image: url('https://dn-st.teambition.net/site/v0.6.0/images/index/hero@2x.jpg');
+    margin-bottom: 0;
+    background-position: center top;
+    background-size: cover;
+}
+    .section__banner-wrap{ text-align: center; padding-top: 51px;}
+    .section__banner .section__banner-h1{ margin-top: 265px; font-size: 48px; color: #000;}
+    .section__banner .section__banner-p{ margin-top: 22px; font-size: 18px;}
+    .section__banner canvas{ display: none;}
+
+    /* 视频播放按钮 */
+    .section__banner-button{ margin: 70px auto;}
+    .section__banner-button i{ margin-right: 5px;}
+
+    .section__banner-viewmore a{
+        height: 48px;
+        width: 48px;
+        border: 1px solid #ff00ff;
+        color: #ff00ff;
+        line-height: 48px;
+        display: inline-block;
+        border-radius: 25px;
+    }
+
+.section__about { background-color: #e1e1e1; padding-top: 76px; text-align: center;}
+.section__about header h1{ font-size: 36px;}
+.section__about header p{ width: 840px; margin: 27px auto 50px auto; text-align: left; font-size: 16px; line-height: 28px;}
+.section__about-list li{ float: left; width: 240px; margin-bottom: 60px;}
+.section__about-list li p{ font-size: 16px; margin-top: 24px;}
+.section__about-button{ padding-bottom: 58px;}

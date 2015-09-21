@@ -38,7 +38,8 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
     <meta content="images/post_thumb_100x400.png" itemprop="image">
     <!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
     <link rel="shortcut icon" href="http://www.hcwfb.cc/favicon.ico" />
-    <!-- <link href="css/default.min.css" rel="stylesheet"> -->
+    <link href="asstes/styles/base.css" rel="stylesheet">
+    <link href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- // <script src="js/google.js"></script> -->
     <script src="//cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
@@ -50,72 +51,76 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="site__logo"><a href="javascript:;"><h1>邯郸市海创无纺布制品有限公司 <small style="display: none;">海创无纺布专业定制各种手提袋，只专注于生产手提袋，别人比的是价格，我们比的是质量。联系电话：15003209070。</small></h1></a></div>
-            <nav class="site__nav">
-                <a class="site__nav-link" href="javascript:;">首页</a>
-                <a class="site__nav-link" href="javascript:;">关于我们</a>
-                <a class="site__nav-link" href="javascript:;">案例</a>
-                <a class="site__nav-link" href="javascript:;">联系我们</a>
-            </nav>
+    <div class="page__wrap">
+        <header class="page__header">
+            <div class="container">
+                <div class="site__logo"><a href="javascript:;"><h1>HCWFB <small style="display: none;">海创无纺布专业定制各种手提袋，只专注于生产手提袋，别人比的是价格，我们比的是质量。联系电话：15003209070。</small></h1></a></div>
+                <nav class="site__nav">
+                    <a class="site__nav-link active" href="javascript:;">首页</a>
+                    <a class="site__nav-link" href="javascript:;">关于我们</a>
+                    <a class="site__nav-link" href="javascript:;">案例</a>
+                    <a class="site__nav-link" href="javascript:;">联系我们</a>
+                </nav>
+            </div>
         </header>
         <section class="section section__banner">
-            <canvas></canvas>
             <div class="section__banner-wrap">
+                <canvas></canvas>
                 <h2 class="section__banner-h1">邯郸市海创无纺布制品有限公司</h2>
                 <p class="section__banner-p">专业定制各种手提袋</p>
                 <div class="section__banner-button">
-                    <button><i></i>观看视频</button>
+                    <button class="btn"><i class="fa fa-play-circle-o"></i>观看视频</button>
                 </div>
-                <div class="section__banner-viewmore">^</div>
+                <div class="section__banner-viewmore"><a href="javascript:;"><i class="fa fa-angle-double-down"></i></a></div>
             </div>
         </section>
-        <div class="section section__about">
-            <header>
-                <h1>专业定制各种手提袋</h1>
-                <p>本公司专业定制各种无纺布手提袋，适用于品牌推广、专卖店、各大卖场、商场、院校、医疗、商业机构用于包装或形象广告宣传、赠品之用，不仅使消费者在购物的同时得到一个精美的袋子，而且商家也五行的做了广告宣传。</p>
-            </header>
-            <div class="">
-                <ul>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                    <li>
-                        <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
-                        <p>平口样式</p>
-                    </li>
-                </ul>
+        <section class="section section__about">
+            <div class="container">
+                <header>
+                    <h1>专业定制各种手提袋</h1>
+                    <p>本公司专业定制各种无纺布手提袋，适用于品牌推广、专卖店、各大卖场、商场、院校、医疗、商业机构用于包装或形象广告宣传、赠品之用，不仅使消费者在购物的同时得到一个精美的袋子，而且商家也五行的做了广告宣传。</p>
+                </header>
+                <div class="section__about-list clearfix">
+                    <ul>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                        <li>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=16&txt=平口样式&w=142&h=142" alt="">
+                            <p>平口样式</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section__about-button">
+                    <button class="btn">查看更多样例</button>
+                </div>
             </div>
-            <div class="section__about-button">
-                <button>查看更多样例</button>
-            </div>
-        </div>
+        </section>
     </div>
 </body>
 
